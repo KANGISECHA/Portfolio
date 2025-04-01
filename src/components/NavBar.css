@@ -1,8 +1,8 @@
-/* Basic styling for the NavBar */
+
 .navbar {
     background-color: #333;
     padding: 10px 20px;
-    color: white;
+    color: #0aa84c;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -38,10 +38,10 @@
   }
   
   .nav-link:hover {
-    color: #ff6347; /* Change color on hover */
+    color: hsl(226, 100%, 64%); 
   }
   
-  /* Button to toggle theme (optional) */
+  
   .theme-toggle-btn {
     background: none;
     border: none;
